@@ -1,0 +1,5 @@
+.pytest_cache/*
+tests/__pycache__/*
+sources/__pycache__/*
+features/steps/__pycache__/*
+venv/*
