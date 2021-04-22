@@ -1,2 +1,3 @@
-# Python_Test_Automation_Demo
-Demonstrating Python 3 Test Automation Usage.
+# Python Test Automation Demo
+Demonstrating Python 3 Test Automation Usage:
+  On the validation of the user password.
