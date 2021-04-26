@@ -14,3 +14,6 @@ resources/.linkedin_cred
 # for automation reasons this file needs to be created,
 # please provide your own $LINKEDIN_USERNAME and $LINKEDIN_PASSWORD
 #----------------------------------
+
+# driver log [ignored]
+geckodriver.log

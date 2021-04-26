@@ -97,3 +97,41 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1619477345968	geckodriver	INFO	Listening on 127.0.0.1:54077
+1619477346982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--no-sandbox" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMP8bev"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:17143): GLib-GObject-CRITICAL **: 00:49:08.072: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:17165): GLib-GObject-CRITICAL **: 00:49:08.286: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619477351103	Marionette	INFO	Listening on port 43151
+
+(/usr/lib/firefox/firefox:17228): GLib-GObject-CRITICAL **: 00:49:11.172: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619477351251	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619477383665	Marionette	INFO	Stopped listening on port 43151
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5D0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5D0004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5D0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
