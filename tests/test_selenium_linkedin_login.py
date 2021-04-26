@@ -1,8 +1,8 @@
 #-------------------------------------------------------
-# Script             : test_selenium_linkedin_login.py
-# Author	     : SI Mkhonza
-# Creation Date	     : 04-04-2021
-# finilised Date     : 11-04-2021
+# Script                : test_selenium_linkedin_login.py
+# Author	            : SI Mkhonza
+# Creation Date	        : 26-04-2021
+# finilised Date        : 27-04-2021
 #-------------------------------------------------------
 
 # Built-in Modules
