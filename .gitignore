@@ -1,5 +1,16 @@
+#----------------------------------
+# Cached Folders and Files
+#----------------------------------
 .pytest_cache/*
 tests/__pycache__/*
 sources/__pycache__/*
 features/steps/__pycache__/*
 venv/*
+
+#----------------------------------
+# LinkedIn cred hiden..
+#----------------------------------
+resources/.linkedin_cred 
+# for automation reasons this file needs to be created,
+# please provide your own $LINKEDIN_USERNAME and $LINKEDIN_PASSWORD
+#----------------------------------
