@@ -5,8 +5,5 @@ Demonstrating Python 3 Test Automation Usage:
     - Please provide the following on (resources/.linkedin_cred):
       - LINKEDIN_USERNAME
       - LINKEDIN_PASSWORD
-    - test commands:
-        . resources/.linkedin_cred 
-        python3 -m pytest -v tests/test_selenium_linkedin_login.py::test_linkedin_login
     - to view the browser/driver, 
       modify show_browser=True on 'tests/test_selenium_linkedin_login.py::test_linkedin_login'.
