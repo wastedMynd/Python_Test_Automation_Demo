@@ -1,4 +1,4 @@
-name: python3 -m pytest -v [Unit-Test Continous Integration Work-Flow]
+name: pytest [Unit-Test Continous Integration Work-Flow]
 
 # Controls when the action will run. 
 on:
@@ -26,18 +26,22 @@ jobs:
       # Run commands
       - name: setup
         run: |
-          echo -e "\n[start]: $(date) - upgrading, and installing python3.6.9, and pip..."
+          echo -e "\n[start]: $(date) - upgrading, and installing firefox browser, python3.6.9, and pip..."
           sudo apt-get -y upgrade 2>/dev/null
           sudo apt-get update --fix-missing 2>/dev/null
+          sudo apt-get install -yf firefox 2>/dev/null
           sudo apt-get install -yf python3 2>/dev/null
           sudo apt-get install -yf python3-pip 2>/dev/null
-          echo -e "\n[done]: $(date) - upgrading, and installing python3.6.9, and pip..."
+          echo -e "\n[done]: $(date) - upgrading, and installing firefox browser, python3.6.9, and pip..."
       - name: pip install Modules
         run: |
           echo -e "\n[start]: $(date) - pip installing from resources/requirements.txt"
           pip install -r resources/requirements.txt
           echo -e "\n[done]: $(date) - pip installing from resources/requirements.txt"
-      - name: Run pytest [unit-tests]
+      - name: pytest [unit-tests]
+        env: 
+          LINKEDIN_USERNAME: ${{secrets.LINKEDIN_USERNAME}}
+          LINKEDIN_PASSWORD: ${{secrets.LINKEDIN_PASSWORD}}
         run: |
           echo -e "\n[start]: $(date) - python3 -m pytest -v"
           python3 -m pytest -v
