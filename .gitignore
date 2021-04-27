@@ -15,5 +15,5 @@ resources/.linkedin_cred
 # please provide your own $LINKEDIN_USERNAME and $LINKEDIN_PASSWORD
 #----------------------------------
 
-# driver log [ignored]
-geckodriver.log
+# driver log [ignored geckodriver.log]
+*.log
